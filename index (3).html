@@ -1,0 +1,164 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   FamilySpace Profile
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-100">
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md">
+   <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+    <div class="flex items-center">
+     <img alt="FamilySpace logo" class="mr-2" height="30" src="https://storage.googleapis.com/a1aa/image/jxm4b74Z43i3hPWcok1N1gNjoBJawUzDrP7oBgISpnQ.jpg" width="30"/>
+     <span class="text-xl font-bold">
+      FamilySpace
+     </span>
+    </div>
+    <div class="flex space-x-4">
+     <a class="text-gray-700" href="#">
+      Home
+     </a>
+     <a class="text-gray-700" href="#">
+      Profile
+     </a>
+     <a class="text-gray-700" href="#">
+      Settings
+     </a>
+     <a class="text-gray-700" href="#">
+      Logout
+     </a>
+    </div>
+   </div>
+  </nav>
+  <!-- Main Content -->
+  <div class="container mx-auto px-4 py-8">
+   <!-- Profile Details -->
+   <div class="bg-white shadow-md rounded-lg p-6 mb-6">
+    <h2 class="text-2xl font-bold mb-4">
+     Profile Details
+    </h2>
+    <div class="flex items-center mb-4">
+     <img alt="Profile picture of Alex Johnson" class="rounded-full w-24 h-24 mr-6" height="100" src="https://storage.googleapis.com/a1aa/image/2fKenzGT2PLAGjRRmpaRR4XN2VgnnltHWnsctNg8HKU.jpg" width="100"/>
+     <div class="flex-grow">
+      <div class="mb-4">
+       <label class="block text-gray-700">
+        Full Name
+       </label>
+       <input class="w-full border border-gray-300 rounded-lg p-2" type="text" value="Alex Johnson"/>
+      </div>
+      <div class="mb-4">
+       <label class="block text-gray-700">
+        Email
+       </label>
+       <input class="w-full border border-gray-300 rounded-lg p-2" type="email" value="alex.johnson@example.com"/>
+      </div>
+      <div class="mb-4">
+       <label class="block text-gray-700">
+        Phone Number
+       </label>
+       <input class="w-full border border-gray-300 rounded-lg p-2" type="text" value="+123456789"/>
+      </div>
+      <button class="bg-red-500 text-white rounded-lg px-4 py-2">
+       Save Changes
+      </button>
+     </div>
+    </div>
+   </div>
+   <!-- Preferences -->
+   <div class="bg-white shadow-md rounded-lg p-6 mb-6">
+    <h2 class="text-2xl font-bold mb-4">
+     Preferences
+    </h2>
+    <div class="flex items-center justify-between mb-4">
+     <span>
+      Email Notifications
+     </span>
+     <label class="relative inline-flex items-center cursor-pointer">
+      <input class="sr-only peer" type="checkbox"/>
+      <div class="w-11 h-6 bg-gray-200 rounded-full peer peer-checked:bg-red-500">
+      </div>
+     </label>
+    </div>
+    <div class="flex items-center justify-between mb-4">
+     <span>
+      SMS Alerts
+     </span>
+     <label class="relative inline-flex items-center cursor-pointer">
+      <input class="sr-only peer" type="checkbox"/>
+      <div class="w-11 h-6 bg-gray-200 rounded-full peer peer-checked:bg-red-500">
+      </div>
+     </label>
+    </div>
+    <div class="flex items-center justify-between">
+     <span>
+      Enable Privacy Mode
+     </span>
+     <label class="relative inline-flex items-center cursor-pointer">
+      <input class="sr-only peer" type="checkbox"/>
+      <div class="w-11 h-6 bg-gray-200 rounded-full peer peer-checked:bg-red-500">
+      </div>
+     </label>
+    </div>
+   </div>
+   <!-- Manage Family Members -->
+   <div class="bg-white shadow-md rounded-lg p-6">
+    <h2 class="text-2xl font-bold mb-4">
+     Manage Family Members
+    </h2>
+    <div class="flex items-center mb-4">
+     <img alt="Profile picture of Lily Johnson" class="rounded-full w-12 h-12 mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/yyXGkg638FikCpMRaN2DXItbPv9-nW0t8x1QT57ZDXQ.jpg" width="50"/>
+     <span class="flex-grow">
+      Lily Johnson
+     </span>
+     <button class="bg-red-500 text-white rounded-lg px-4 py-2">
+      Edit
+     </button>
+    </div>
+    <div class="flex items-center mb-4">
+     <img alt="Profile picture of Timothy Johnson" class="rounded-full w-12 h-12 mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/TRwHxQi1vhj9hCXvI9LDepE3B4Wch1XBxGT2BpXu8NE.jpg" width="50"/>
+     <span class="flex-grow">
+      Timothy Johnson
+     </span>
+     <button class="bg-red-500 text-white rounded-lg px-4 py-2">
+      Edit
+     </button>
+    </div>
+    <button class="bg-red-500 text-white rounded-lg px-4 py-2">
+     Add Family Member
+    </button>
+   </div>
+  </div>
+  <!-- Footer -->
+  <footer class="bg-pink-100 py-4">
+   <div class="container mx-auto px-4 flex justify-between items-center">
+    <div>
+     <p>
+      Contact Us:
+      <a class="text-red-500" href="mailto:support@familyspace.com">
+       support@familyspace.com
+      </a>
+     </p>
+     <p>
+      Phone: +123456789
+     </p>
+    </div>
+    <div class="flex space-x-4">
+     <a class="text-gray-700" href="#">
+      Privacy Policy
+     </a>
+     <a class="text-gray-700" href="#">
+      Terms of Service
+     </a>
+     <a class="text-gray-700" href="#">
+      Help
+     </a>
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>
